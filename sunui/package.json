@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "element-ui": "^2.15.13",
     "sass": "^1.58.3",
     "vue": "^2.6.14"
   },
@@ -18,5 +19,12 @@
     "less-loader": "^8.0.0",
     "sass-loader": "^13.2.0",
     "vue-template-compiler": "^2.6.14"
-  }
+  },
+  "description": "```\r npm install\r ```",
+  "main": "babel.config.js",
+  "directories": {
+    "example": "examples"
+  },
+  "author": "",
+  "license": "ISC"
 }

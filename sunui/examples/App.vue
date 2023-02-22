@@ -1,6 +1,11 @@
 <template>
   <div id="app">
     <s-card></s-card>
+    <s-button type="warning" size="mini"></s-button>
+    <s-button type="warning" size="small"></s-button>
+    <s-button type="warning" size="medium" ></s-button>
+    <s-button type="warning" size="medium" >fsdfsdf</s-button>
+     <s-link type="fail">ssss</s-link>
     
   </div>
 </template>

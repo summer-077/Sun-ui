@@ -1,6 +1,6 @@
 <template>
     <div class="s-card">
-      <div class="s-card-img">
+      <div :class="s-card-img" >
         <img src="" alt="">
         图片
       </div>
@@ -35,3 +35,4 @@ export default {
     }
 }
 </script>
+
