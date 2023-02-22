@@ -1,7 +1,7 @@
 <template>
     <div class="s-card">
       <div :class="s-card-img" >
-        <img src="" alt="">
+        <img :src="imgSrc" alt="">
         图片
       </div>
 
@@ -22,7 +22,7 @@ export default {
         },
         imgSrc:{//图片资源地址
             type:String,
-            default:'',
+            default:'../../../assets/dogs.png',
         },
         imgHeight:{//图片宽度
             type:Number,

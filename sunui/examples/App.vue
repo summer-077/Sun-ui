@@ -1,12 +1,14 @@
 <template>
   <div id="app">
     <s-card></s-card>
-    <s-button type="warning" size="mini"></s-button>
-    <s-button type="warning" size="small"></s-button>
-    <s-button type="warning" size="medium" ></s-button>
-    <s-button type="warning" size="medium" >fsdfsdf</s-button>
+    <s-button type="primary" size="mini">主要</s-button>
+    <s-button type="success" size="small">成功</s-button>
+    <s-button type="warning" size="medium" >警告</s-button>
+    <s-button type="fail" size="medium" >失败</s-button>
      <s-link type="fail">ssss</s-link>
-    
+     <s-link type="primary">dasdasd</s-link>
+     <s-link type="warning">dasdasd</s-link>
+    <s-avatar shape="circle"></s-avatar>
   </div>
 </template>
 

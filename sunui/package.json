@@ -18,7 +18,8 @@
     "less": "^4.0.0",
     "less-loader": "^8.0.0",
     "sass-loader": "^13.2.0",
-    "vue-template-compiler": "^2.6.14"
+    "vue-template-compiler": "^2.6.14",
+    "vuepress": "^1.9.8"
   },
   "description": "```\r npm install\r ```",
   "main": "babel.config.js",
