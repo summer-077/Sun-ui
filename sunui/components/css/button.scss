@@ -1,0 +1,56 @@
+
+.s-button-container{
+    .s-button{
+        overflow:hidden;
+        display:inline-block;
+        background-color:#a0c2e7 ;
+        padding: 5px 12px;
+        margin: 5px 5px;
+        border-radius: 5%;
+        &-text{
+         color:white;
+         font-weight: 800;
+        
+        }
+    
+       
+    }
+
+    .primary{
+        background-color:#a0c2e7 ;
+    }
+    .warning{
+        background-color: #fde590;
+    }
+    .success{
+        background-color: #b3bf86;
+    }
+    .fail{
+        background-color: #e98d7e;
+    }
+    .text{
+        background-color: white;
+      
+    }
+    
+    //size
+    .small{
+        padding: 2px 6px;
+        font-size:small,
+    }
+    .mini{
+        padding: 2px 3px;
+        font-size: x-small;
+    }
+
+}
+
+.s-button:hover{
+    opacity: 0.8;
+}
+.s-button:active{
+   background-color:mix(white,black);
+
+}
+
+
