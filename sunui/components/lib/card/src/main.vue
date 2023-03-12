@@ -1,12 +1,12 @@
 <template>
     <div class="s-card">
-      <div :class="s-card-img" >
+      <div class="s-card-img" >
         <img :src="imgSrc" alt="">
-        图片
+        <slot></slot>
       </div>
 
-      <div class="s-card-summary">
-     summary
+      <div class="s-card-summary" >
+       {{summary}}
       </div>
     </div>
 </template>
@@ -22,7 +22,7 @@ export default {
         },
         imgSrc:{//图片资源地址
             type:String,
-            default:'../../../assets/dogs.png',
+            default:require("../../../assets/dogs.jpg"),
         },
         imgHeight:{//图片宽度
             type:Number,
@@ -30,7 +30,7 @@ export default {
         },
         summary:{//卡片概要
             type:String,
-            default:'',
+            default:'summary'
         }
     }
 }

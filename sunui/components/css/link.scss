@@ -2,6 +2,11 @@
     .s-link{
         color:#a0c2e7;
          font-weight: 800;
+         -moz-user-select: none;
+        -ms-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+
     
          
     }

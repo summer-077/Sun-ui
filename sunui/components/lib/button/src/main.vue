@@ -1,7 +1,7 @@
 <template>
     <div class="s-button-container">
    <div :class="['s-button',type,size]" >
-    <div :class="['s-button-text',size]" @click="clikAlert">
+    <div :class="['s-button-text',size]" >
        <slot></slot>
     </div>
    </div>
@@ -27,11 +27,7 @@ export default{
 
     },
         methods:{
-       clikAlert() {
-        console.log('okkkk');
-          alert("222");
-       }
-
+      
     }
 }
 </script>

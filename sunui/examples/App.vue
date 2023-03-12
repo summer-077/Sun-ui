@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <s-card></s-card>
+    <!-- <s-card></s-card>
     <s-button type="primary" size="mini">主要</s-button>
     <s-button type="success" size="small">成功</s-button>
     <s-button type="warning" size="medium" >警告</s-button>
@@ -8,7 +8,8 @@
      <s-link type="fail">ssss</s-link>
      <s-link type="primary">dasdasd</s-link>
      <s-link type="warning">dasdasd</s-link>
-    <s-avatar shape="circle"></s-avatar>
+    <s-avatar shape="circle" width="500px"></s-avatar> -->
+    <s-alert></s-alert>
   </div>
 </template>
 
@@ -30,6 +31,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

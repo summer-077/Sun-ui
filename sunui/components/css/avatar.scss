@@ -1,21 +1,28 @@
 .s-avatar{
-    padding-top:100%;
+    width:100%;
+    height:0px;
+    padding-bottom: 100%;
+    overflow:hidden;
+    position:relative;
+    img{
+        position:absolute;
+        left: 0;
+        width:100%;
+        height:100%;
+    }
+
 }
+
+
 
 .circle{
     img{
-        width:10px;
         border-radius: 50%;
-        padding-top: 100%;
-        
+
     }
     
 }
 
 .square{
-    &-img{
-        
-      
-    }
 
 }

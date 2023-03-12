@@ -1,10 +1,11 @@
 {
-  "name": "sunui",
+  "name": "hccloud",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib components/index.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",
